@@ -18,7 +18,7 @@ This project automates interactions with the Trello API using Python and pytest.
 5. [Test Files](#test-files)
     - [Conftest File](#conftest.file)
     - [End To End Test File](#end-to-end-test-file)
-6. [Example Template](#example-template)
+6. [Example Template Configuration](#example-template-configuration)
 7. [Testing Markers Configuration](#testing-markers-configuration)
 8. [Running the Tests](#running-the-tests)
    - [Prerequisites](#prerequisites) 
@@ -814,6 +814,27 @@ def test_get_deleted_board(self, board_endpoint, login_credentials, return_exist
 #### Summary
 The `test_end_to_end.py` file contains comprehensive end-to-end tests for various Trello API functionalities. Each test ensures that the operations (creating, retrieving, moving, and deleting boards, lists, and cards) are performed correctly and validated thoroughly.
 
+### Example Template Configuration
+The `configuration.env.template` file is an example environment file used to set up environment variables for the project. This file serves as a template, guiding users on how to create their actual environment file (`configuration.env`) without exposing sensitive data in the repository.
+
+- **File**: []()
+
+#### Configuration Environment Setup Instructions
+
+##### 1. Create the Configuration Environment File
+
+- Copy the `configuration.env.template` file and rename it to `configuration.env` by removing the `.template` extension.
+
+##### 2. Edit the Testing Environment File
+
+- Open the newly created `configuration.env` file in a text editor.
+- Replace the placeholder values with your actual credentials.
+
+##### 3. Obtain Access Tokens and API Key
+
+- To obtain an API Key, follow the instructions from the official API documentation of Trello: https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
+
+- To obtain an access Token, follow the instructions from the same official source: https://developer.atlassian.com/cloud/trello/guides/rest-api/authorization/
 
 
 
