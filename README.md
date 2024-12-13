@@ -814,7 +814,7 @@ def test_get_deleted_board(self, board_endpoint, login_credentials, return_exist
 #### Summary
 The `test_end_to_end.py` file contains comprehensive end-to-end tests for various Trello API functionalities. Each test ensures that the operations (creating, retrieving, moving, and deleting boards, lists, and cards) are performed correctly and validated thoroughly.
 
-### Example Template Configuration
+## Example Template Configuration
 The `configuration.env.template` file is an example environment file used to set up environment variables for the project. This file serves as a template, guiding users on how to create their actual environment file (`configuration.env`) without exposing sensitive data in the repository.
 
 - **File**: []()
@@ -836,7 +836,7 @@ The `configuration.env.template` file is an example environment file used to set
 
 - To obtain an access Token, follow the instructions from the same official source: https://developer.atlassian.com/cloud/trello/guides/rest-api/authorization/
 
-### Testing Markers Configuration
+## Testing Markers Configuration
 The .ini file is used to configure and provide descriptions for all the markers utilized in the testing files. These markers help in organizing, categorizing, and selectively running tests based on specific criteria.
 
 - **File**: [Testing Markers Configuration]()
@@ -848,6 +848,40 @@ The .ini file is used to configure and provide descriptions for all the markers 
 - **Improve Test Management**: Enhances the organization and readability of tests by providing clear descriptions.
 
 - **Selective Test Execution**: Allows running specific groups of tests based on the markers defined.
+
+## Running The Tests
+
+### Prerequisites
+1. **Clone the Repository**: 
+     - Clone the repository to your local machine:
+       ```bash 
+       git clone (link)
+       ```
+     - Navigate to the Repository Directory:
+       ```bash
+        cd directory
+       ```
+2. **Install Dependencies**:
+     - In your project directory, install the required dependencies:
+       ```bash
+       pip install -r requirements.txt
+       ```
+3. **Python**: 
+     - Ensure you have Python installed on your machine. Download it from [python.org](https://www.python.org/).
+
+### Execute the Tests
+To ensure the proper functioning of this project, tests have been set up and can be run in various ways:
+
+#### 1. From PyCharm:
+
+     - If you are using PyCharm as your IDE, you can run the tests directly from the IDE's configuration settings:
+     
+        - Open PyCharm and navigate to the `Run` menu.
+        - Run the tests or specific test, from the existing configurations.
+
+#### 2. Through the Terminal:
+
+     - You can also run the tests from the terminal using standard testing commands. Make sure the virtual environment is activated before running the tests.
 
 
 
