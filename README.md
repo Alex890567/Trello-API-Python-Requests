@@ -883,6 +883,14 @@ To ensure the proper functioning of this project, tests have been set up and can
 
      - You can also run the tests from the terminal using standard testing commands. Make sure the virtual environment is activated before running the tests.
 
+## License
+All rights reserved. See the [LICENSE](./LICENSE) file for more details.
+
+## Contact Information
+For any questions or feedback, feel free to reach out to me at alexparlaloglou@gmail.com
+
+## Happy Testing!
+
 
 
 
