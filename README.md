@@ -30,7 +30,7 @@ This project automates interactions with the Trello API using Python and pytest.
 ## Endpoints File
 This file defines the base URL for the Trello API and specific endpoints for boards and cards.
 
-- **File**: []()
+- **File**: [endpoints.py](https://github.com/Alex890567/Trello-API-Python-Requests/blob/main/config/endpoints.py)
 
 ### Imports
 No imports needed in this file.
@@ -58,14 +58,14 @@ The `endpoints.py` file provides the essential URLs needed for interacting with 
 ## Ids Directory
 Contains various .txt files with different ids, that's been stored and then passed through the conftest file.
 
-- **Directory**: []()
+- **Directory**: [ids/](https://github.com/Alex890567/Trello-API-Python-Requests/tree/main/tests/ids)
 
 ## Test Files
 
 ## Conftest File
 This file is responsible for setting up fixtures for the Trello API-based testing. It includes fixtures for API credentials, endpoints, and various IDs needed for the tests.
 
-- **File**: []()
+- **File**: [conftest.py](https://github.com/Alex890567/Trello-API-Python-Requests/blob/main/tests/conftest.py)
 
 ### Imports
 
@@ -189,7 +189,7 @@ The `conftest.py` file is crucial for setting up and managing fixtures needed fo
 ## End To End Test File
 This file contains end-to-end tests for various Trello API functionalities using pytest.
 
-- **File**: []()
+- **File**: [test_end_to_end.py](https://github.com/Alex890567/Trello-API-Python-Requests/blob/main/tests/test_end_to_end.py)
 
 ### Imports
 
@@ -817,7 +817,7 @@ The `test_end_to_end.py` file contains comprehensive end-to-end tests for variou
 ## Example Template Configuration
 The `configuration.env.template` file is an example environment file used to set up environment variables for the project. This file serves as a template, guiding users on how to create their actual environment file (`configuration.env`) without exposing sensitive data in the repository.
 
-- **File**: []()
+- **File**: [configuration.env.template](https://github.com/Alex890567/Trello-API-Python-Requests/blob/main/configuration.env.template)
 
 #### Configuration Environment Setup Instructions
 
@@ -839,7 +839,7 @@ The `configuration.env.template` file is an example environment file used to set
 ## Testing Markers Configuration
 The .ini file is used to configure and provide descriptions for all the markers utilized in the testing files. These markers help in organizing, categorizing, and selectively running tests based on specific criteria.
 
-- **File**: [Testing Markers Configuration]()
+- **File**: [pytest.ini](https://github.com/Alex890567/Trello-API-Python-Requests/blob/main/pytest.ini)
 
 #### Purpose of the .ini File
 
@@ -855,11 +855,11 @@ The .ini file is used to configure and provide descriptions for all the markers 
 1. **Clone the Repository**: 
      - Clone the repository to your local machine:
        ```bash 
-       git clone (link)
+       git clone https://github.com/Alex890567/Trello-API-Python-Requests.git
        ```
      - Navigate to the Repository Directory:
        ```bash
-        cd directory
+        cd Trello-API-Python-Requests
        ```
 2. **Install Dependencies**:
      - In your project directory, install the required dependencies:
