@@ -836,6 +836,19 @@ The `configuration.env.template` file is an example environment file used to set
 
 - To obtain an access Token, follow the instructions from the same official source: https://developer.atlassian.com/cloud/trello/guides/rest-api/authorization/
 
+### Testing Markers Configuration
+The .ini file is used to configure and provide descriptions for all the markers utilized in the testing files. These markers help in organizing, categorizing, and selectively running tests based on specific criteria.
+
+- **File**: [Testing Markers Configuration]()
+
+#### Purpose of the .ini File
+
+- **Define Markers**: Specifies and describes each marker used in the testing files.
+
+- **Improve Test Management**: Enhances the organization and readability of tests by providing clear descriptions.
+
+- **Selective Test Execution**: Allows running specific groups of tests based on the markers defined.
+
 
 
 
